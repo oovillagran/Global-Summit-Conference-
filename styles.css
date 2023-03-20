@@ -12,3 +12,40 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.navbar-menu,
+.navbar-social {
+  display: none !important;
+}
+
+.logo {
+  color: #ec5242;
+}
+
+.link-menu {
+  color: #272a31 !important;
+  cursor: pointer;
+}
+
+.link-menu:hover {
+  color: #ec5242 !important;
+}
+
+.link-campaign {
+  color: #ec5242 !important;
+  border: #ec5242 0.25rem solid;
+}
+
+.bar {
+  display: block;
+  width: 2rem;
+  height: 0.3rem;
+  margin: 0.3rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  background-color: #424141;
+}
+
+.hamburger {
+  margin: 2rem;
+}
