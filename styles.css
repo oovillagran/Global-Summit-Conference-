@@ -61,6 +61,8 @@ body {
   margin: 4rem 5% 7rem 5%;
 }
 
+/* home page */
+
 .greet {
   color: #ec5242;
   font-size: 1.5rem;
@@ -175,3 +177,108 @@ body {
   background-color: #d3d3d3;
 }
 
+/* about page */
+
+.greet-about {
+  color: #ec5242;
+  font-size: 1.35rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.title-about {
+  color: #ec5242;
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  background-color: #fff;
+  border: #d3d3d3 1px solid;
+  width: 90%;
+  margin: 4rem 5% 2rem 5%;
+  color: #424141;
+  padding: 2rem 0.5rem;
+}
+
+.description-about {
+  margin-bottom: 0;
+}
+
+.contact {
+  text-align: center;
+  width: 80%;
+  font-size: 0.85rem;
+  margin: 0 10%;
+}
+
+.email {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-decoration: underline;
+  margin-bottom: 2.5rem;
+}
+
+.about-logo {
+  /* border: green 1px solid */
+  border-bottom: 1.5px solid #d3d3d3;
+}
+
+.logo-title {
+  padding: 2rem 0 0.25rem;
+}
+
+.logo-title-h3 {
+  text-align: center;
+  color: #424141;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.about-bar {
+  background: #ec5242;
+  width: 2rem;
+  height: 0.05rem;
+  margin: auto;
+}
+
+.about-ministries {
+  margin: 1rem 10%;
+  width: 80%;
+  text-align: center;
+  color: #424141;
+  font-size: 0.8rem;
+}
+
+.logo-img {
+  width: 90%;
+  margin: 1rem 5% 3rem;
+  border: 2px solid #424141;
+}
+
+.see-title {
+  text-align: center;
+  margin: 2rem 0 0.5rem;
+  color: #424141;
+  font-weight: 600;
+}
+
+.see-paragrah {
+  text-align: center;
+  margin: 1rem 2rem 3rem;
+  font-size: 0.9rem;
+  color: #424141;
+}
+
+.conference-images {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 1rem;
+}
