@@ -261,6 +261,10 @@ body {
   border: 2px solid #424141;
 }
 
+.see-past {
+  padding-bottom: 3rem;
+}
+
 .see-title {
   text-align: center;
   margin: 2rem 0 0.5rem;
@@ -281,4 +285,131 @@ body {
   width: 80%;
   margin: auto;
   gap: 1rem;
+}
+
+.conference1 {
+  background-color: #ec5242;
+  background-image: url(Images/conference1.png);
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.conference2 {
+  background-color: #ec5242;
+  background-image: url(Images/conference2.png);
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.conference-year {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.partner {
+  background-color: #424141;
+  color: #fff;
+  padding: 2rem;
+}
+
+.partner-title {
+  text-align: center;
+  /* padding: 0 0 0.5rem; */
+  font-size: 1.30rem;
+}
+
+.bar-footer {
+  background-color: #ec5242;
+  width: 2rem;
+  height: 0.03rem;
+  margin: auto auto 1.5rem;
+}
+
+.footer-partners {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-item a{
+  text-decoration: none;
+  color: #d3d3d3;
+  /* margin: 0; */
+  /* border: #ec5242 1px solid; */
+  
+}
+
+.footer-item a:hover {
+  color: #fff;
+}
+
+.partner1 {
+  font-size: 1.5rem;
+}
+
+.partner2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.partner3 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.partner4 {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+}
+
+.partner5 {
+  font-size: 1.7rem;
+}
+
+
+.copyright {
+  display: flex;
+  padding: 1.5rem;
+}
+
+.logo-footer {
+  color: #ec5242;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.rights-declaration {
+  font-size: 0.8rem;
+  color: #424141;
+  margin: 0;
+}
+
+.rights {
+  flex: 1;
+}
+
+/* desktop media querie */
+
+@media only screen {
+  
 }
