@@ -62,3 +62,27 @@ featuredSpeakers.forEach((postData) => {
   `;
   speakersCard.appendChild(card);
 });
+
+// hamburguer menu
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const navBarMenu = document.querySelector(".navbar-menu");
+const logo = document.querySelector(".logo")
+const main = document.querySelector(".main");
+// const footer = document.querySelector(".footer-home")
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  main.classList.toggle("active");
+  // footer.classList.toggle("active");
+  navBarMenu.classList.add("display");
+  logo.classList.add("hidden");
+})
+
+document.querySelectorAll(".link-menu").forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+  main.classList.remove("active");
+  // footer.classList.remove("active");
+}))
