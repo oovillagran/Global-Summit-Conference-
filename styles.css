@@ -424,8 +424,60 @@ body {
   display: none;
 }
 
+.speakers {
+  padding: 2rem;
+}
+
+.featured {
+  text-align: center;
+  font-weight: 900 !important;
+}
+
 .footer-home {
   display: none;
+}
+
+.card {
+  border: none !important;
+  /* flex-direction: row !important; */
+  gap: 2rem !important;
+  margin: 3rem 0;
+}
+
+.featuredSpeakers {
+  display: flex;
+}
+
+.cardImg {
+  /* width: 100%; */
+  height: 100%;
+}
+
+.speakersInfo {
+  margin-left: 2rem;
+}
+
+.speakerName {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.speakerPosition {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.speakerBar {
+  background-color: #d3d3d3;
+  width: 3rem;
+  height: 0.1rem;
+  margin: 1rem 0
+}
+
+.speakerExperience {
+  color: #474747;
+  font-size: 0.9rem;
 }
 
 /* desktop media querie */
