@@ -1,5 +1,6 @@
 const featuredSpeakers = [
   {
+    n: 0,
     portrait: './Images/Speakers/sp1.png',
     name: 'Jhon Perez',
     position: 'Director of the Science Museum of Arts at Vienna\'s University of Applied Sciences.',
@@ -7,6 +8,7 @@ const featuredSpeakers = [
     class: 'speaker1',
   },
   {
+    n: 1,
     portrait: './Images/Speakers/sp2.png',
     name: 'Myeong-Suk',
     position: 'Head of IT of the General Observatory of Seul.',
@@ -14,6 +16,7 @@ const featuredSpeakers = [
     class: 'speaker2',
   },
   {
+    n: 2,
     portrait: './Images/Speakers/sp3.png',
     name: 'Petra Yurinz',
     position: 'Dean of the Faculty of Humanities at University of Munich.',
@@ -21,6 +24,7 @@ const featuredSpeakers = [
     class: 'speaker3',
   },
   {
+    n: 3,
     portrait: './Images/Speakers/sp4.png',
     name: 'Clint Eatswood',
     position: 'Lietenant Astronaut',
@@ -28,6 +32,7 @@ const featuredSpeakers = [
     class: 'speaker4',
   },
   {
+    n: 4,
     portrait: './Images/Speakers/sp5.png',
     name: 'Lorena Jalek',
     position: 'Phd. Head of the Physician Laboratory in Norwey.',
@@ -35,6 +40,7 @@ const featuredSpeakers = [
     class: 'speaker5',
   },
   {
+    n: 5,
     portrait: './Images/Speakers/sp6.png',
     name: 'Malek Nahan',
     position: 'Philosopher and Economist, Head of the National Bank of Bangladesh.',
@@ -48,7 +54,12 @@ const speakersCard = document.querySelector('.grid-container');
 
 featuredSpeakers.forEach((postData) => {
   const card = document.createElement('div');
-  card.classList.add('card', postData.class);
+  if (postData.n > 1) {
+    card.classList = 'card card-hidden';
+  } else {
+    card.classList = 'card'
+  }
+  // card.classList.add('card', postData.class);
   card.innerHTML = `
     <div class="featuredSpeakers">
       <img class="cardImg" src="${postData.portrait}" alt="Speaker Image">
@@ -61,6 +72,29 @@ featuredSpeakers.forEach((postData) => {
     </div>
   `;
   speakersCard.appendChild(card);
+});
+
+// more button
+
+const speakersButton = document.getElementById('mbutton');
+const textSpeakersButton= document.querySelector('.more-button-p');
+
+speakersButton.addEventListener('click', () => {
+  const hiddenCards = document.querySelectorAll('.card-hidden');
+  hiddenCards.forEach((card) => {
+    card.classList.toggle('show');
+    card.classList.toggle('card-hidden');
+  });
+  if (textSpeakersButton.innerText === 'MORE') {
+    textSpeakersButton.innerText = 'LESS';
+  } else {
+    textSpeakersButton.innerText = 'MORE';
+    const showCards = document.querySelectorAll('.show');
+    showCards.forEach((card) => {
+      card.classList.remove('show');
+      card.classList.toggle('card-hidden');
+    });
+  }
 });
 
 // hamburguer menu

@@ -480,6 +480,28 @@ body {
   font-size: 0.9rem;
 }
 
+.more-button {
+  width: 100%;
+  border: #272a31 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #8b8787 solid 1px;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  /* gap: 2rem; */
+  /* height: 4rem; */
+}
+
+.more-button-p {
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+.card-hidden {
+  display: none !important;
+}
+
 /* desktop media querie */
 
 @media only screen and (min-width: 768px) {
@@ -831,6 +853,14 @@ body {
     grid-template-columns: 1fr 1fr;
     margin: 0 5rem;
     column-gap: 2rem;
+  }
+
+  .speakers-button {
+    display: none;
+  }
+
+  .card-hidden {
+    display: block !important;
   }
 }
 
