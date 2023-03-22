@@ -26,7 +26,7 @@
 
 
 <body>
-  <header>
+  <header class="header">
     <nav>
       <div class="navbar navbar-expand-lg navbar-dark bg-dark navbar-social">
         <div class="container-fluid ">
@@ -39,13 +39,13 @@
                 <a class="nav-link active" href="#"><i class="bi bi-twitter"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Spanish</a>
+                <a class="nav-link active nav-social-text" href="#">Spanish</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">My Page</a>
+                <a class="nav-link active nav-social-text" href="#">MyPage</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Logout</a>
+                <a class="nav-link active nav-social-text" href="#">Logout</a>
               </li>
             </ul>
           </div>
@@ -54,11 +54,11 @@
       
       <div class="navbar navbar-expand-lg bg-body-tertiary navbar-menu">
         <div class="container-fluid">
-          <div class="d-flex justify-content-around" id="navbarTogglerDemo01">
+          <div class="d-flex nav-bar-about">
             <a class="navbar-brand logo" href="#">OSCARinc.</a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link link-menu" aria-current="page" href="#">About</a>
+                <a class="nav-link link-menu" aria-current="page" href="/about.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link link-menu" href="#">Program</a>
@@ -73,7 +73,7 @@
                 <a class="nav-link link-menu">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-menu link-campaign">CC Campaign</a>
+                <a class="nav-link link-menu link-campaign">Campaign</a>
               </li>
             </ul>
           </div>
@@ -120,7 +120,7 @@
         </table>
 
         <table class="table table-borderless t-main">
-          <tbody>
+          <tbody class="main-column">
             <tr class="main-row">
               <td class="t-img"><img class="main-img" src="Images/main_02.png" alt="Exhibit Icon"></td>
               <td class="t-title">Exhibition</td>
@@ -170,6 +170,10 @@
           Join CvsE Global Summit 2023
         </button>
       </div>
+
+      <div class="program">
+        <a class="see-program" href="#">SEE THE WHOLE PROGRAM</a>
+      </div>
     </section>
 
     <section class="speakers">
@@ -178,10 +182,33 @@
 
       </div>
     </section>
+
+    <section class="speakers">
+
+    </section>
   </main>
 
-  <footer>
+  <footer class="footer-home">
+    <div class="partner-home">
+      <h6 class="partner-title-home">Partner</h6>
+      <div class="bar-footer-home"></div>
+      <ul class="footer-partners-home">
+        <li class="footer-item"><a class="partner1" href="#">Lord&Tailor</a></li>
+        <li class="footer-item"><a class="partner2" href="#">Darwin's</a></li>
+        <li class="footer-item"><a class="partner3" href="#">HOPE</a></li>
+        <li class="footer-item"><a class="partner4" href="#">Bethel Industries</a></li>
+        <li class="footer-item"><a class="partner5" href="#">Ethics</a></li>
+      </div>
+    </div>
 
+    <div class="copyright-home">
+      <a class="navbar-brand logo-footer" href="#">OSCARinc.</a>
+      <div class="rights">
+        <p class="rights-declaration-desktop-home">2023 Creationism vs Evolution. Some Rights Reserved.</p>
+        <p class="rights-declaration-desktop-home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus in quod repellat harum fugit vero, 
+          ad enim repellendus delectus nesciunt provident temporibus porro aperiam molestias ut voluptates cumque? Nostrum!</p>
+      </div>
+    </div>
   </footer>
 
 </body>
