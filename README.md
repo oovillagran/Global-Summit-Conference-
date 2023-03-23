@@ -85,7 +85,7 @@
 
 - Here you will see a [Live Demo](https://oovillagran.github.io/Capstone_M1/) of my project.
 
-- This is the [Loom Walktrough Video](https://www.loom.com/) of my project.
+- This is the [Loom Walktrough Video](https://www.loom.com/share/1f689459a7134b71846c7d1c1bd3d778) of my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +137,7 @@ To run tests, execute the following command:
 
 ### Deployment
 
-- N/A
+- You can use GitHub Pages to deploy this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
