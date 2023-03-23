@@ -112,7 +112,7 @@ hamburger.addEventListener('click', () => {
   logo.classList.add('hidden');
 });
 
-document.querySelectorAll(".link-menu").forEach((n) => n.addEventListener('click', () => {
+document.querySelectorAll('.link-menu').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
   main.classList.remove('active');

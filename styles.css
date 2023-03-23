@@ -852,7 +852,6 @@ body {
 /* hamburger menu */
 
 @media only screen and (max-width: 768px) {
-
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }

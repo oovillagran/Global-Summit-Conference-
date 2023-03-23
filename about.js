@@ -13,7 +13,7 @@ hamburger.addEventListener('click', () => {
   logo.classList.add('hidden');
   main.classList.toggle('active');
   footer.classList.toggle('active');
-})
+});
 
 document.querySelectorAll('.link-menu').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
