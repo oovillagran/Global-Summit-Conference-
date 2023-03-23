@@ -12,6 +12,10 @@ body {
   padding: 0;
 }
 
+.overFlow {
+  overflow: hidden;
+}
+
 .navbar-menu,
 .navbar-social {
   display: none !important;
@@ -502,7 +506,7 @@ body {
   .intro-about {
     background-image: url(Images/BackgroundAbout.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: #fff 1px solid;
     position: relative;
   }
@@ -865,9 +869,9 @@ body {
   }
 
   .nav-menu {
-    position: absolute;
+    position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 0;
     gap: 0;
     flex-direction: column;
     background-color: #272a31;
@@ -889,6 +893,24 @@ body {
 
   .footer-about.active {
     filter: blur(6px);
+  }
+
+  .xButton {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    background-image: url(Images/xButton.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    width: 1rem;
+    height: 1rem;
+    padding: 2rem !important;
+    background-color: #272a31;
+    border: none;
+  }
+
+  .nav-item-home {
+    margin-top: 4rem;
   }
 
   .display {
