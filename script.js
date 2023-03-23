@@ -57,7 +57,7 @@ featuredSpeakers.forEach((postData) => {
   if (postData.n > 1) {
     card.classList = 'card card-hidden';
   } else {
-    card.classList = 'card'
+    card.classList = 'card';
   }
   // card.classList.add('card', postData.class);
   card.innerHTML = `
@@ -77,7 +77,7 @@ featuredSpeakers.forEach((postData) => {
 // more button
 
 const speakersButton = document.getElementById('mbutton');
-const textSpeakersButton= document.querySelector('.more-button-p');
+const textSpeakersButton = document.querySelector('.more-button-p');
 
 speakersButton.addEventListener('click', () => {
   const hiddenCards = document.querySelectorAll('.card-hidden');
@@ -98,22 +98,22 @@ speakersButton.addEventListener('click', () => {
 });
 
 // hamburguer menu
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-const navBarMenu = document.querySelector(".navbar-menu");
-const logo = document.querySelector(".logo")
-const main = document.querySelector(".main");
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+const navBarMenu = document.querySelector('.navbar-menu');
+const logo = document.querySelector('.logo');
+const main = document.querySelector('.main');
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-  main.classList.toggle("active");
-  navBarMenu.classList.add("display");
-  logo.classList.add("hidden");
-})
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+  main.classList.toggle('active');
+  navBarMenu.classList.add('display');
+  logo.classList.add('hidden');
+});
 
-document.querySelectorAll(".link-menu").forEach(n => n.addEventListener("click", () => {
-  hamburger.classList.remove("active");
-  navMenu.classList.remove("active");
-  main.classList.remove("active");
-}))
+document.querySelectorAll(".link-menu").forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+  main.classList.remove('active');
+}));
