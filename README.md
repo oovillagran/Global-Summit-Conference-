@@ -3,7 +3,9 @@
 
 <div align="center">
 
-  <h3><b>Project Review (Trials)</b></h3>
+  <h3><b>CAPSTONE PROJECT MODULE 1</b></h3>
+  <h3><b>Conference Page - Creationism vs Evolution Global Summit 2023</b></h3>
+  <img src="images/Readme.png" alt="Readme Image">
 
 </div>
 
@@ -28,15 +30,15 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Project Review (Trials)<a name="about-project"></a>
+# 📖 Capstone Project Module 1<a name="about-project"></a>
 
 
-**Project Review (Trials)** intends to execute my first code review, as in week number one from Microverse software developer program I upgraded my knowledge and skills in *HTML* and *CSS*. This code review is going to be performance about the **Built a Survey Form project** from trials done in the admission proccess.
+**Creationism vs Evolution Global Summit 2023** is based on an online website for a conference according to design guidelines provided by Microverse. Trought this capstone project I show the main abilities adquired so far in the **Module 1 - The Portal**. In this Module I learned about HTML, CSS and an brief introduction to javaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,15 +59,22 @@
   </ul>
 </details>
 
+<details>
+  <summary>JavaScript</summary>
+  <ul>
+    <li>JavaScritp</li>
+  </ul>
+</details>
+<br>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
 - Creating branches on repositories.
-- Use of linter on HTML&CSS project.
+- Use of linter on HTML&CSS&js projects.
 - Write a correct descriptive README file.
-- Perform a code review in a HTML and CSS project.
+- Correct use of GitHub flow.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +83,9 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- N/A
+- Here you will see a [Live Demo](https://oovillagran.github.io/Capstone_M1/) of my project.
+
+- This is the [Loom Walktrough Video](https://www.loom.com/) of my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,10 +161,10 @@ To run tests, execute the following command:
 
 
 
-- [ ] **Use of linter in HTML&CSS projects**
-- [ ] **Use README template file**
-- [ ] **Ask for a code review**
-- [ ] **Follow the list from the article ["How_to_give_a_code_review?"](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/code-review/articles/give_code_review_basics.md).**
+- [ ] *Use of linter in HTML&CSS&JS projects*
+- [ ] *Use README template file*
+- [ ] *Ask for a code review*
+- [ ] *Follow the guideliness for this ["Conference Page"](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md) capstone project.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,14 +191,15 @@ If you like this project feel free to make any comment, all contributions are we
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse comunity, especially reviewers guys, they do an excellent job. I thank my learning, morning session and standup partners for supporting me.
+I would like to thank Microverse comunity. This a support family from all over the world.
+
+I thank [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) who are the owners of the license of [Cindy Shin](https://www.behance.net/adagio07) original design.
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](LICENSE.md) licensed.
-
-_NOTE: we recommend using the [MIT license]<a href="LICENSE.md">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
