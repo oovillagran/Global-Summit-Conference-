@@ -115,6 +115,7 @@ hamburger.addEventListener('click', () => {
   navBarMenu.classList.add('display');
   logo.classList.add('hidden');
   body.classList.add('overFlow');
+  
   //Action of the xButton
   const closeButtonAction = document.querySelector('.xButton');
   closeButtonAction.addEventListener('click', () => {

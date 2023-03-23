@@ -19,7 +19,9 @@ hamburger.addEventListener('click', () => {
   main.classList.toggle('active');
   footer.classList.toggle('active');
   body.classList.add('overFlow');
+  
   //Action of the xButton
+  
   const closeButtonAction = document.querySelector('.xButton');
   closeButtonAction.addEventListener('click', () => {
     window.location.reload();
