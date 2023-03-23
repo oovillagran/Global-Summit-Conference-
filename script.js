@@ -115,7 +115,8 @@ hamburger.addEventListener('click', () => {
   navBarMenu.classList.add('display');
   logo.classList.add('hidden');
   body.classList.add('overFlow');
-  const closeButtonAction = document.querySelector('.xButton'); //Action of the xButton
+  //Action of the xButton
+  const closeButtonAction = document.querySelector('.xButton');
   closeButtonAction.addEventListener('click', () => {
     window.location.reload();
   });

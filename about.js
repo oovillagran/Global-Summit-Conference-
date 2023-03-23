@@ -5,7 +5,7 @@ const navBarMenu = document.querySelector('.navbar-menu');
 const logo = document.querySelector('.logo');
 const main = document.querySelector('.main');
 const footer = document.querySelector('.footer-about');
-const closeButton = document.createElement('button')
+const closeButton = document.createElement('button');
 const body = document.querySelector('body');
 
 hamburger.addEventListener('click', () => {
@@ -18,11 +18,12 @@ hamburger.addEventListener('click', () => {
   logo.classList.add('hidden');
   main.classList.toggle('active');
   footer.classList.toggle('active');
-  body.classList.add('overFlow')
-  const closeButtonAction = document.querySelector('.xButton'); //Action of the xButton
+  body.classList.add('overFlow');
+  //Action of the xButton
+  const closeButtonAction = document.querySelector('.xButton');
   closeButtonAction.addEventListener('click', () => {
     window.location.reload();
-});
+  });
 });
 
 document.querySelectorAll('.link-menu').forEach((m) => m.addEventListener('click', () => {
