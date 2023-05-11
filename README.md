@@ -83,7 +83,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- Here you will see a [Live Demo](https://oovillagran.github.io/Capstone_M1/) of my project.
+- Here you will see a [Live Demo](https://oovillagran.github.io/Global-Summit-Conference-/) of my project.
 
 - This is the [Loom Walktrough Video](https://www.loom.com/share/1f689459a7134b71846c7d1c1bd3d778) of my project.
 
